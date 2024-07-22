@@ -30,7 +30,7 @@ const TeamMembers: React.FC = () => {
           </div>
           <div className="mt-2 text-center">
             <h3 className="text-xl font-semibold">Mya Pwint Thet Tin</h3>
-            <p className="text-sm">Frontend Developer & Project Manager</p>
+            <p className="text-sm">Founding Member & Project Manager</p>
           </div>
         </div>
 
