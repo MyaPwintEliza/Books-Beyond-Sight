@@ -65,7 +65,7 @@ function BodySection() {
           Why Donate to BSS?
         </h1>
         <div className="flex flex-col items-center justify-between w-full mt-10 text-left md:flex-row">
-          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-96 h-76 md:mt-20">
+          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-72 h-76 md:mt-20">
             <div className="p-10 mx-auto card-body">
               <FaRegEdit size={36} />
               <h2 className="text-2xl font-bold text-yellow-700 card-title">
@@ -78,7 +78,7 @@ function BodySection() {
               </p>
             </div>
           </div>
-          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-96 h-76">
+          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-72 h-76">
             <div className="p-10 mx-auto card-body">
               <GoTag size={36} />
               <h2 className="text-2xl font-bold text-yellow-700 card-title">
@@ -91,7 +91,7 @@ function BodySection() {
               </p>
             </div>
           </div>
-          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-96 h-76 md:mt-5">
+          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-72 h-76 md:mt-5">
             <div className="p-10 mx-auto card-body">
               <GrLineChart size={36} />
               <h2 className="text-2xl font-bold text-yellow-700 card-title">
@@ -104,7 +104,7 @@ function BodySection() {
               </p>
             </div>
           </div>
-          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-96 h-76 md:mt-28">
+          <div className="w-full mt-5 bg-yellow-100 shadow-xl card md:w-72 h-76 md:mt-28">
             <div className="p-10 card-body">
               <RiUserHeartLine size={36} />
               <h2 className="text-2xl font-bold text-yellow-700 card-title">

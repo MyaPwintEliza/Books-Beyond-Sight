@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import bgEvent from "../images/bgEvent.png";
 
 const EventAnnouncement: React.FC = () => {
-  const eventDate = new Date("2024-07-30T00:00:00");
+  const eventDate = new Date("2024-07-31T00:00:00");
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -38,19 +38,19 @@ const EventAnnouncement: React.FC = () => {
   }, [timeLeft]);
 
   return (
-    <div className="container relative p-6 mx-auto mt-10 mb-20 rounded-lg shadow-lg bg-base-200">
+    <div className="container relative p-6 mx-auto mt-10 mb-20 rounded-lg shadow-inner">
       <img
         src={bgEvent}
         alt="Event Background"
         className="object-cover w-full h-full rounded-lg"
       />
-      <div className="top-0 left-0 flex flex-col items-center justify-center w-full h-full p-6 text-white bg-black bg-opacity-50 rounded-lg md:absolute">
+      <div className="top-0 left-0 flex flex-col items-center justify-center w-full h-full p-6 text-yellow-700 rounded-lg md:absolute">
         <h2 className="mb-6 text-3xl font-bold text-center">
           Event Announcement (စာဖတ်သံ)
         </h2>
         <div className="mb-6 text-center">
           <p className="text-xl">Join us for our special event on</p>
-          <p className="text-2xl font-bold">30 July 2024</p>
+          <p className="text-2xl font-bold">31 July 2024</p>
           <p>Location - American Center, Yangon</p>
           <p>Time - 1PM TO 4:30PM</p>
         </div>

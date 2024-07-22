@@ -1,6 +1,8 @@
 import React from "react";
 import founder from "../images/founder.jpg";
 import me from "../images/me.jpg";
+import logo from "../images/logo.png";
+import khin from "../images/khin.jpg";
 
 const TeamMembers: React.FC = () => {
   return (
@@ -30,6 +32,18 @@ const TeamMembers: React.FC = () => {
           <div className="mt-2 text-center">
             <h3 className="text-xl font-semibold">Mya Pwint Thet Tin</h3>
             <p className="text-sm">Frontend Developer & Project Manager</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <div className="avatar">
+            <div className="rounded-full h-36 w-36 ring ring-yellow-700 ring-offset-2">
+              <img src={logo} />
+            </div>
+          </div>
+          <div className="mt-2 text-center">
+            <h3 className="text-xl font-semibold">BBS Volunteers</h3>
+            <p className="text-sm">TOTAL - 10 MEMBERS</p>
           </div>
         </div>
       </div>

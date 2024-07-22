@@ -2,10 +2,10 @@ import logo from "../images/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="sticky top-0 bg-white navbar ">
+    <div className="fixed top-0 z-50 bg-white navbar ">
       <div className="navbar-start">
-        <div className="mx-10">
-          <h4 className="text-xl font-bold text-yellow-700 font-primary">
+        <div className="">
+          <h4 className="text-xl font-bold text-yellow-700 md:mx-10 font-primary">
             Books Beyond Sight
           </h4>
         </div>
@@ -37,12 +37,6 @@ const Navbar = () => {
           >
             <li>
               <a>Homepage</a>
-            </li>
-            <li>
-              <a>Portfolio</a>
-            </li>
-            <li>
-              <a>About</a>
             </li>
           </ul>
         </div>

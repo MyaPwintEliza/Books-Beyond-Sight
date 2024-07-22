@@ -47,6 +47,20 @@ const WaysToDonate: React.FC = () => {
             you!
           </p>
         </div>
+
+        <div className="diff aspect-[30/9] mt-10">
+          <div className="diff-item-1">
+            <div className="grid text-4xl font-black text-white bg-yellow-700 md:text-7xl place-content-center">
+              Books Beyond Sight
+            </div>
+          </div>
+          <div className="diff-item-2">
+            <div className="grid text-4xl font-black bg-white place-content-center md:text-7xl">
+              Your Story Start Here!
+            </div>
+          </div>
+          <div className="diff-resizer"></div>
+        </div>
       </div>
     </div>
   );
