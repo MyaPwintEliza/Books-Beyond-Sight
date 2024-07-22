@@ -1,5 +1,4 @@
 import React from "react";
-import founder from "../images/founder.jpg";
 import me from "../images/me.jpg";
 import logo from "../images/logo.png";
 import khin from "../images/khin.jpg";
@@ -14,7 +13,7 @@ const TeamMembers: React.FC = () => {
         <div className="flex flex-col items-center">
           <div className="avatar">
             <div className="rounded-full h-36 w-36 ring ring-yellow-700 ring-offset-2">
-              <img src={founder} />
+              <img src={khin} />
             </div>
           </div>
           <div className="mt-2 text-center">
