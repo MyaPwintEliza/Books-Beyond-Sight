@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import TeamMembers from "./components/TeamMembers";
 import EventAnnouncement from "./components/EventAnnouncement";
 import WaysToDonate from "./components/WaysToDonate";
+import PhotoGallery from "./components/PhotoGallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <WaysToDonate />
         <TeamMembers />
         <EventAnnouncement />
+        <PhotoGallery />
         <Footer />
       </div>
     </>

@@ -88,7 +88,7 @@ function HeroSection() {
               </svg>
             </div>
             <div className="stat-title">Total Likes</div>
-            <div className="text-yellow-800 stat-value">2.4K</div>
+            <div className="text-yellow-800 stat-value">2.5K</div>
             <div className="stat-desc">90% more than last month (facebook)</div>
           </div>
 
@@ -109,7 +109,7 @@ function HeroSection() {
               </svg>
             </div>
             <div className="stat-title">Page Followers</div>
-            <div className="text-yellow-500 stat-value">2.9k</div>
+            <div className="text-yellow-500 stat-value">3.1k</div>
             <div className="stat-desc">95% more than last month (facebook)</div>
           </div>
         </div>

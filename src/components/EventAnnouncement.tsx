@@ -38,7 +38,7 @@ const EventAnnouncement: React.FC = () => {
   }, [timeLeft]);
 
   return (
-    <div className="container relative p-6 mx-auto mt-10 mb-20 rounded-lg shadow-inner">
+    <div className="container relative p-6 mx-auto mt-10 rounded-lg shadow-inner">
       <img
         src={bgEvent}
         alt="Event Background"
@@ -77,6 +77,7 @@ const EventAnnouncement: React.FC = () => {
               <span>{timeLeft.seconds}</span> <span>Seconds</span>
             </div>
           </div>
+          <h1>Finished</h1>
         </div>
       </div>
     </div>
