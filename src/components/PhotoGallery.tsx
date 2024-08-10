@@ -8,6 +8,9 @@ import photo7 from "../images/event6.jpg";
 import photo8 from "../images/event7.jpg";
 import photo9 from "../images/event9.jpg";
 import photo10 from "../images/event10.jpg";
+import photo11 from "../images/event11.jpg";
+import photo12 from "../images/event12.jpg";
+import photo13 from "../images/event13.jpg";
 import Camphoto1 from "../images/Cam1.jpg";
 import Camphoto2 from "../images/cam2.jpg";
 import Camphoto3 from "../images/cam3.jpg";
@@ -29,6 +32,9 @@ const photos = [
   photo8,
   photo9,
   photo10,
+  photo11,
+  photo12,
+  photo13,
 ];
 const Camphotos = [
   Camphoto1,
