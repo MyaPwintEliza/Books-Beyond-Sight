@@ -42,7 +42,7 @@ const TeamMembers: React.FC = () => {
           </div>
           <div className="mt-2 text-center">
             <h3 className="text-xl font-semibold">BBS Volunteers</h3>
-            <p className="text-sm">TOTAL - 10 MEMBERS</p>
+            <p className="text-sm">TOTAL - 30 MEMBERS</p>
           </div>
         </div>
       </div>

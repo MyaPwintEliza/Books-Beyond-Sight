@@ -52,7 +52,7 @@ const PhotoGallery: React.FC = () => {
         Moments from (စာဖတ်သံ)
       </h1>
       <p className="p-5 mx-5 text-base text-center md:text-xl md:mx-10">
-        We organized this event to support blind students with donations of
+        We organized this event to support visually students with donations of
         audio books and essential educational resources. Our gallery highlights
         the meaningful interactions and joyful moments from our visit,
         showcasing the impact of our contributions.

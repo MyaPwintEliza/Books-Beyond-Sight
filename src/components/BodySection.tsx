@@ -1,5 +1,5 @@
 //
-import helping from "../images/helping3.png";
+import helping from "../images/helping4.png";
 import mission from "../images/mission.png";
 import { FaRegEdit } from "react-icons/fa";
 import { GoTag } from "react-icons/go";
@@ -12,7 +12,7 @@ import slide3 from "../images/slide3.jpg";
 function BodySection() {
   return (
     <div className="px-5 text-center">
-      <div className="flex flex-col items-center mt-10 italic md:flex-row">
+      <div className="flex flex-col items-center mt-20 italic md:flex-row">
         <div className="md:basis-1/2">
           <h1 className="text-3xl font-bold text-center text-yellow-700 capitalize md:text-5xl">
             Giving Help to those<pre></pre> who need it
@@ -29,7 +29,7 @@ function BodySection() {
             educational materials through recorded voices.
           </p>
         </div>
-        <div className="mt-5 md:basis-1/2 md:mt-0 md:mx-24">
+        <div className="mt-5 md:basis-1/3 md:mt-0 md:mx-24">
           <img src={helping} alt="Helping Hands" className="w-full md:w-auto" />
         </div>
       </div>
