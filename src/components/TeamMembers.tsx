@@ -18,7 +18,7 @@ const TeamMembers: React.FC = () => {
           </div>
           <div className="mt-2 text-center">
             <h3 className="text-xl font-semibold">Khin Khin Kyaw</h3>
-            <p className="text-sm">Founder & CEO</p>
+            <p className="text-sm">Founder & Project Director</p>
           </div>
         </div>
 
