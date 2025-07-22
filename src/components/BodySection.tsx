@@ -1,5 +1,5 @@
 //
-import helping from "../images/helping4.png";
+import helping from "../images/helping5.png";
 import mission from "../images/mission.png";
 import { FaRegEdit } from "react-icons/fa";
 import { GoTag } from "react-icons/go";
