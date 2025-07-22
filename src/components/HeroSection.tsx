@@ -8,7 +8,7 @@ function HeroSection() {
           "Together, we can create
         </h2>
         <h2 className="text-xl font-bold text-black uppercase md:text-3xl md:px-10 md:text-white">
-          a world of________ song and sight"
+          a world of________ sound and sight"
         </h2>
         <p className="mt-5 text-sm italic font-normal text-black md:text-base md:mt-5 md:px-7 md:text-white ">
           Our Non-Profit Youths Organization is for Visually Impaired<pre></pre>
