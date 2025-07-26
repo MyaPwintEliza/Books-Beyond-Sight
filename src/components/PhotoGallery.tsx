@@ -49,13 +49,49 @@ const PhotoGallery: React.FC = () => {
   return (
     <div>
       <h1 className="p-5 text-3xl font-bold text-center">
-        Moments from (စာဖတ်သံ)
+        Moment from Voice of Reading Event (စာဖတ်သံ)
       </h1>
       <p className="p-5 mx-5 text-base text-center md:text-xl md:mx-10">
-        We organized this event to support visually students with donations of
-        audio books and essential educational resources. Our gallery highlights
-        the meaningful interactions and joyful moments from our visit,
-        showcasing the impact of our contributions.
+        On July 31, 2024, Books Beyond Sight (BBS) hosted its first on-ground
+        initiative, the "စာဖတ်သံ - Voice of Reading" event, at the American
+        Center Yangon. This event aimed to bridge visually impaired students'
+        need for audiobooks with volunteers eager to donate their voices,
+        raising awareness about voice donation and fostering empathy among
+        youth. Organized as part of Ms. Khin Khin Kyaw’s follow-on community
+        service project from the 2024 Myanmar Youth Leadership Program (MYLP),
+        the event was funded by the U.S. Department of State’s Bureau of
+        Educational and Cultural Affairs (ECA).
+        <br />
+        <br />
+        Event Highlights Panel Discussion: Featured diverse guest speakers,
+        including visually impaired writers, to inspire volunteerism and
+        empathy. <br />
+        <br />
+        <b> Interactive Activities</b>: Simulated audiobook recording to engage
+        attendees.
+        <br /> <br /> <b>Slogan</b>: "သင့်ရဲ့စာဖတ်သံ ကျွန်ုပ်တိုရဲ့
+        လမ်းပြအလင်းမှန်" ("Your reading voice is my guiding light") <br />
+        <br />
+        <b>Mission</b>: To raise awareness about audio accessibility for
+        visually impaired students and inspire voice donation. <br />
+        <br />
+        <b>Vision</b>: To build a supportive community where visually impaired
+        individuals access a variety of audiobooks read by dedicated volunteers,
+        fostering inclusivity and empathy.
+        <br />
+        <br /> <b>Target Audience</b>: Youth aged 17–25 without sight issues,
+        interested in voice donation. <br />
+        <br />
+        <b>Guests</b>: Youth, donors, and founders of disability-focused
+        non-profits.
+        <br />
+        <br />
+        <b>Guest Speakers</b>: Three authors, including one visually impaired
+        writer.
+        <br />
+        <br /> <b>Event Impact</b>: Over 220 attendees without sight issues. 190
+        applications for voice donation volunteers. Increased public awareness
+        of voice donation.
       </p>
       <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3">
         {photos.map((photo, index) => (
@@ -71,12 +107,22 @@ const PhotoGallery: React.FC = () => {
 
       <div>
         <h1 className="pt-10 text-3xl font-bold text-center">
-          Memorable Moments from [ဖတ်ကြမယ်] Campaign
+          “Let’s Read” (Phat Kya Mal) Donation Campaign
         </h1>
         <p className="p-5 mx-5 text-base text-center md:text-xl md:mx-10">
-          We recently visited Kaewachan Blind School and Kyimanai Blind School
-          to make donations and engage with the students. This gallery showcases
-          the heartfelt moments and impactful experiences from our visit.
+          On August 3, 2024, Books Beyond Sight (BBS) organized the "Let’s Read"
+          (Phat Kya Mal) donation campaign at Kawechan and Kyimyindaing Blind
+          Schools, reaching approximately 400 visually impaired students. The
+          campaign provided essential resources, including access to audiobooks,
+          stationery, and food, while gathering valuable feedback on audiobook
+          preferences and genres.
+          <br />
+          <br />
+          It also facilitated discussions on the rules and requirements for
+          voice donation, fostering greater awareness and understanding among
+          volunteers. The event successfully delivered 500 non-academic and 13
+          academic audiobooks, engaged with potential partners and sponsors, and
+          strengthened the network supporting visually impaired students.
         </p>
         <div className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 md:grid-cols-3">
           {Camphotos.map((Camphoto, index) => (
