@@ -48,7 +48,7 @@ const Camphotos = [
 const PhotoGallery: React.FC = () => {
   return (
     <div>
-      <h1 className="p-5 text-3xl font-bold text-center">
+      <h1 className="p-5 text-3xl font-bold text-center text-yellow-700">
         Moment from Voice of Reading Event (စာဖတ်သံ)
       </h1>
       <p className="p-5 mx-5 text-base text-center md:text-xl md:mx-10">
@@ -106,7 +106,7 @@ const PhotoGallery: React.FC = () => {
       </div>
 
       <div>
-        <h1 className="pt-10 text-3xl font-bold text-center">
+        <h1 className="pt-10 text-3xl font-bold text-center text-yellow-700">
           “Let’s Read” (Phat Kya Mal) Donation Campaign
         </h1>
         <p className="p-5 mx-5 text-base text-center md:text-xl md:mx-10">

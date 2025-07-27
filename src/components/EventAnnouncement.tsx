@@ -44,8 +44,8 @@ const EventAnnouncement: React.FC = () => {
         alt="Event Background"
         className="object-cover w-full h-full rounded-lg"
       />
-      <div className="top-0 left-0 flex flex-col items-center justify-center w-full h-full p-6 text-yellow-700 rounded-lg md:absolute">
-        <h2 className="mb-6 text-3xl font-bold text-center">
+      <div className="left-0 flex flex-col items-center justify-center w-full h-full p-6 text-yellow-700 rounded-lg top-5 md:absolute">
+        <h2 className="mb-5 text-3xl font-bold text-center">
           Event Announcement (စာဖတ်သံ)
         </h2>
         <div className="mb-6 text-center">
@@ -62,7 +62,9 @@ const EventAnnouncement: React.FC = () => {
           </p>
         </div>
         <div className="text-center">
-          <h3 className="mb-4 text-2xl font-semibold">Countdown to Event:</h3>
+          <h3 className="mb-4 text-2xl font-semibold">
+            Countdown to Event: Finished
+          </h3>
           <div className="flex flex-wrap justify-center space-x-2 text-xl">
             <div className="p-2 text-white bg-yellow-700 rounded-lg">
               <span>{timeLeft.days}</span> <span>Days</span>
@@ -77,7 +79,6 @@ const EventAnnouncement: React.FC = () => {
               <span>{timeLeft.seconds}</span> <span>Seconds</span>
             </div>
           </div>
-          <h1>Finished</h1>
         </div>
       </div>
     </div>

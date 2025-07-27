@@ -8,6 +8,7 @@ import EventAnnouncement from "./components/EventAnnouncement";
 import WaysToDonate from "./components/WaysToDonate";
 import PhotoGallery from "./components/PhotoGallery";
 import PhotoSlideShow from "./components/PhotoSlideShow";
+import EventGallery from "./components/EventGallery";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <TeamMembers />
         <EventAnnouncement />
         <PhotoGallery />
+        <EventGallery />
         <PhotoSlideShow />
         <Footer />
       </div>
